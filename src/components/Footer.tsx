@@ -37,7 +37,7 @@ const Footer = () => {
                   alt=""
                 />
                 <div className="flex flex-col gap-5">
-                  <p className="font-bold text-lg lg:text-md sm:text-xs">
+                  <p className="font-bold text-md lg:text-md sm:text-xs">
                     {data.title}
                   </p>
                   <p className="text-light">{data.text}</p>
