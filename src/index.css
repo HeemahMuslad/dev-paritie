@@ -14,7 +14,7 @@ body {
     z-index: 100;
     position: relative;
     transition: 0.3s ease-in-out;
-    background: #434b4d;
+    background-color: transparent;
   }
   .hamburger.active .bar:nth-child(2) {
     opacity: 0;

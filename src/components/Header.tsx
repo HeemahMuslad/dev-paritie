@@ -16,10 +16,10 @@ const Header = () => {
         <div className="w-lg   text-white flex items-center gap-5  mx-auto 2xl:py-5">
           <div
             onClick={toggleMenu}
-            className={`hamburger hover:bg-secondary cursor-pointer hidden rounded ${
+            className={`hamburger hover:bg-solid cursor-pointer hidden rounded ${
               isActive ? "active" : ""
             } w-auto p-1 border-none  `}
-           >
+          >
             <span className="bar block bg-primary  w-7 my-1 mx-auto h-0.5"></span>
             <span className="bar block bg-primary  w-7 my-1 mx-auto h-0.5"></span>
             <span className="bar block bg-primary  w-7 my-1 mx-auto h-0.5"></span>
@@ -40,38 +40,56 @@ const Header = () => {
                 >
                   <a href="#">HOME</a>
                 </li>
-                <li onClick={closeMenu} className="link hover:text-solid active:text-primary">
+                <li
+                  onClick={closeMenu}
+                  className="link hover:text-solid active:text-primary"
+                >
                   <a href="#">SERVICES</a>
                 </li>
-                <li onClick={closeMenu} className="link hover:text-solid active:text-primary">
+                <li
+                  onClick={closeMenu}
+                  className="link hover:text-solid active:text-primary"
+                >
                   <a href="#">PAGES</a>
                 </li>
-                <li onClick={closeMenu} className="link hover:text-solid active:text-primary">
+                <li
+                  onClick={closeMenu}
+                  className="link hover:text-solid active:text-primary"
+                >
                   <a href="#">CASE SHOP</a>
                 </li>
-                <li onClick={closeMenu} className="link hover:text-solid active:text-primary">
+                <li
+                  onClick={closeMenu}
+                  className="link hover:text-solid active:text-primary"
+                >
                   <a href="#">BLOG</a>
                 </li>
-                <li onClick={closeMenu} className="link hover:text-solid active:text-primary">
+                <li
+                  onClick={closeMenu}
+                  className="link hover:text-solid active:text-primary"
+                >
                   <a href="#">CONTENT</a>
                 </li>
               </ul>
               <div className=" social   items-center justify-center flex gap-2 2xl:pr-5 2xl:gap-10">
                 <div className="flex gap-2  ">
-                  <a className="w-sm h-sm" href="#">
+                  <a onClick={closeMenu} className="w-sm h-sm" href="#">
                     <img src="./image/Icon feather-instagram.png" alt="" />
                   </a>
-                  <a className="w-sm h-sm" href="#">
+                  <a onClick={closeMenu} className="w-sm h-sm" href="#">
                     <img src="./image/Icon ionic-logo-linkedin.png" alt="" />
                   </a>
-                  <a className="w-sm h-sm" href="#">
+                  <a onClick={closeMenu} className="w-sm h-sm" href="#">
                     <img src="./image/Icon ionic-logo-twitter.png" alt="" />
                   </a>
-                  <a className="w-sm h-sm" href="#">
+                  <a onClick={closeMenu} className="w-sm h-sm" href="#">
                     <img src="./image/Icon simple-facebook.png" alt="" />
                   </a>
                 </div>
-                <div className="border-x h-28 2xl:border-hidden 2xl:h-0    flex px-2 items-center justify-center">
+                <div
+                  onClick={closeMenu}
+                  className="border-x h-28 2xl:border-hidden 2xl:h-0    flex px-2 items-center justify-center"
+                >
                   <img src="./image/Icon feather-search.png" alt="" />
                 </div>
                 <div
