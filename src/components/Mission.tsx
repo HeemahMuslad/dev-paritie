@@ -1,11 +1,6 @@
-import React from "react";
 import { useState } from "react";
 
 const Mission = () => {
-  //   const [isActive, setIsActive] = useState(false);
-  //   const toggleQA = (ques: any) => {
-  //     setIsActive(!isActive);
-  //   };
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
 
   const toggleQA = (index: number) => {
