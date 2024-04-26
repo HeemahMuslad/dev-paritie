@@ -33,14 +33,14 @@ Codeshaper is a single-page website designed to provide information about a comp
 
 To run the project locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/HeemahMuslad/dev-paritie`
+1. Clone the repository: `git clone [repo URL ](https://github.com/HeemahMuslad/dev-paritie) `
 2. Navigate to the project directory: `cd codeshaper`
 3. Install dependencies: `npm install`
 4. Start the development server: `npm run dev`
 
 ## Usage
 
-Once the development server is running, you can access the website in your browser by navigating to `https://heemah-dev-paritie.netlify.app`.
+Once the development server is running, you can access the website in your browser by navigating to `  [live URL ](https://heemah-dev-paritie.netlify.app) `.
 
 ## Contributing
 
