@@ -52,8 +52,8 @@ body {
     transition: 0.3s ease-in-out;
     padding-left: 10px;
   }
-  .link:hover {
-    color: hsl(26, 100%, 55%);
+  .link a:hover {
+    color: #474747 ;
   }
   .navLinks.active {
     top: 0;

@@ -21,8 +21,8 @@ const Experience = () => {
   ];
   return (
     <div className="bg-darker pt-20  pb-40   text-white w-full ">
-      <div className="w-lg flex  flex-col mx-auto gap-5">
-        <h1 className="text-md text-center">REAL-WORLD EXPERIENCE</h1>
+      <div className="w-lg flex items-center  flex-col   mx-auto gap-5">
+        <h1 className="text-xs text-center font-bold">REAL-WORLD EXPERIENCE</h1>
         <p className="text-light text-center">
           The best business consulting firm you can count on!
         </p>
@@ -43,9 +43,7 @@ const Experience = () => {
           ))}
         </div>
         <div className="flex items-center gap-2 mb-10">
-          <span className="block w-96 bg-white border-b "></span>
           <p>MEET THE PARTNERS</p>
-          <span className="block w-96 bg-white  border-b"></span>
         </div>
         <div className="flex justify-between w-full ">
           <img

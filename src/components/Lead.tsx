@@ -30,7 +30,7 @@ const Lead = () => {
             />
           </div>
           <div className="w-half gap-10 flex flex-col md:w-full ">
-            <h1 className="text-md font-bold">WE'RE LEADING IN THE MARKET</h1>
+            <h1 className="text-md sm:text-xs sm:text-center font-bold">WE'RE LEADING IN THE MARKET</h1>
             <p className="text-light">
               Lorem ipsum is simply free text dolor sit amet, consectetur notted
               adipisicing elit sed do eiusmod tempor incididunt ut labore et
@@ -74,7 +74,7 @@ const Lead = () => {
           </div>
         </div>
         <div className="absolute bottom-0  -left-10 rotate-12">
-          <img src="public/image/Path 7.png" alt="" />
+          <img src="./image/Path 7.png" alt="" />
         </div>
         
         <div className="flex  w-lg absolute md:relative md:bottom-0  -bottom-24  shadow-lg mx-auto bg-white">

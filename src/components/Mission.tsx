@@ -68,7 +68,7 @@ const Mission = () => {
             We help our clients renew their business
           </p>
           <div className="w-lg flex md:flex-col gap-10   ">
-            <div className="w-half md:w-full ">
+            <div className="w-half md:w-full  ">
               {q_aData.map((data, index) => (
                 <div
                   key={data.id}
@@ -100,7 +100,7 @@ const Mission = () => {
                     </div>
                   </div>
 
-                  {activeIndex === index && <p>{data.ans}</p>}
+                  {activeIndex === index && <p className="pt-3 ">{data.ans}</p>}
                 </div>
               ))}
             </div>
@@ -116,7 +116,7 @@ const Mission = () => {
                 </div>
               ))}
               </div>
-              <div className="flex flex-col items-center w-xxsm sm:w-half bg-primary text-white p-3"><h1 className="text-md font-bold">30</h1>
+              <div className="flex flex-col items-center w-xxsm sm:w-xsm bg-primary text-white p-3"><h1 className="text-md sm:text-xs font-bold">30</h1>
               <p className=" text-center font-bold">Years of Experience</p></div>
             </div>
           </div>
