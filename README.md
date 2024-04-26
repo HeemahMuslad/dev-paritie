@@ -1,30 +1,57 @@
-# React + TypeScript + Vite
+# Codeshaper
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Codeshaper is a single-page responsive website showcasing a company's profile, services, and contact information. It also features a functional question and answer accordion. The site is built using a straightforward structure, utilizing React Vite, TypeScript, Tailwind CSS, and other technologies.
 
-Currently, two official plugins are available:
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Setup](#setup)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Project Overview
 
-## Expanding the ESLint configuration
+Codeshaper is a single-page website designed to provide information about a company and its services. It features a clean and modern design, with a responsive layout that adapts to different screen sizes.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Features
 
-- Configure the top-level `parserOptions` property like this:
+- Showcase of company profile
+- Display of services offered
+- Contact information
+- Functional question and answer accordion
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Technologies Used
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- React Vite
+- TypeScript
+- Tailwind CSS
+
+
+## Setup
+
+To run the project locally, follow these steps:
+
+1. Clone the repository: `git clone https://github.com/HeemahMuslad/dev-paritie`
+2. Navigate to the project directory: `cd codeshaper`
+3. Install dependencies: `npm install`
+4. Start the development server: `npm run dev`
+
+## Usage
+
+Once the development server is running, you can access the website in your browser by navigating to `https://heemah-dev-paritie.netlify.app`.
+
+## Contributing
+
+Contributions to Codeshaper are welcome! Here's how you can contribute:
+
+1. Fork the repository
+2. Create a new branch: `git checkout -b feature-name`
+3. Make your changes and commit them: `git commit -m 'Add feature'`
+4. Push to the branch: `git push origin feature-name`
+5. Submit a pull request
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
